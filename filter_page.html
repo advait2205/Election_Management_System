@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="filter.css">
+
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-col navbar-dark fixed-top">
+        <a href="index.html" class="navbar-brand"><img src="logo.png" width=auto height="35"></a></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Filter</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main-div">
+        <div class="w45">
+            <div style="margin-right:3%;padding:16px 16px;height:1000px;">
+
+                <p id="print">
+                </p>
+                <script src="javascript.js"></script>
+            </div>
+        </div>
+        <div class="w15">
+            <h2>Filter</h2>
+            <ul class="filter-bar">
+                <li style="color:blue;text-align:center;"><b>Region</b></li>
+                <br>
+                <li>
+                    <input type="checkbox" id="GJ" name="GJ" value="Gujarat">
+                    <label for="GJ"><b>Gujarat</b></label><br>
+                    <input type="checkbox" id="MH" name="MH" value="Maharashtra">
+                    <label for="MH"><b>Maharashtra</b></label><br>
+                    <input type="checkbox" id="R" name="R" value="Rajasthan">
+                    <label for="R"><b>Rajasthan</b></label><br>
+                </li>
+                <hr>
+
+                <li style="color:blue;text-align:center;"><b>Position</b></li>
+                <br>
+                <li>
+                    <input type="checkbox" id="CEO" name="CEO" value="CEO">
+                    <label for="CEO"><b>CEO</b></label><br>
+                    <input type="checkbox" id="CFO" name="CFO" value="CFO">
+                    <label for="CFO"><b>CFO</b></label><br>
+                    <input type="checkbox" id="EC" name="EC" value="EC">
+                    <label for="EC"><b>EC</b></label><br>
+                </li>
+                <hr>
+                <li style="color:blue;text-align:center;"><b>Voter Statistics</b></li>
+                <br>
+
+                <li>
+                    <input type="checkbox" id="Age" name="Age" value="Age">
+                    <label for="Age"><b>Age</b></label><br>
+                    <input type="checkbox" id="Gender" name="Gender" value="Gender">
+                    <label for="Gender"><b>Gender</b></label><br>
+                    <input type="checkbox" id="Date" name="Date" value="Date">
+                    <label for="Date"><b>Date</b></label><br>
+
+                    <button style="background-color:cyan;color:red;" onclick="search(0)">Proceed</button>
+                </li>
+
+            </ul>
+            <br><br><br>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

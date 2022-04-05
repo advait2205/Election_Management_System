@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Dev Choganwala",
+        "Position": "CEO",
+        "Region": "Gujarat",
+        "Votes": "10000"
+    },
+    {
+        "name": "Bread Butter",
+        "Position": "CFO",
+        "Region": "Rajasthan",
+        "Votes": "10"
+    },
+    {
+        "name": "Cha pani",
+        "Position": "EC",
+        "Region": "Maharashtra",
+        "Votes": "12"
+    }
+]
