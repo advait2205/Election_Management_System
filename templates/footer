@@ -1,0 +1,7 @@
+<footer class="main-footer">
+  <div class="pull-right hidden-xs">
+      <b>ybt2027@gmail.com</b>
+  </div>
+  <strong> &copy; {% now "Y" %} - Developed by Yash Trivedi and Company </a></strong>
+
+</footer>
