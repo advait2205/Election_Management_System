@@ -19,4 +19,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls'), name = 'Home Page'),
+    path('/filter', include('home.urls'), name = 'Filter Page'),
+    path('/cast_vote', include('home.urls'), name = 'Cast Vote page'),
+    path('/home', include('home.urls'), name = 'Logged user page'),
 ]
