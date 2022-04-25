@@ -18,7 +18,8 @@
 <!--        {% endfor %}-->
 <!--        <form action="{% url 'login' %}" method="post">-->
 <!--            {% csrf_token %}--> {% endcomment %}
-        <form action="" method="post">
+        <form action="/home" method="POST">
+            {% csrf_token %}
             <div class = "inputs">
                 <input type="text" id="phone" name="phone" placeholder="Mobile Number" required><br><br>
 
